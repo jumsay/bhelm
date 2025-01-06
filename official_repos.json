@@ -1,0 +1,1087 @@
+[
+  {
+    "name": "redis-enterprise-operator-official",
+    "organization_name": "redis",
+    "url": "https://helm.redis.io/"
+  },
+  {
+    "name": "k8status",
+    "organization_name": "stenic",
+    "url": "https://stenic.github.io/k8status/"
+  },
+  {
+    "name": "kubewarden",
+    "organization_name": "kubewarden",
+    "url": "https://charts.kubewarden.io"
+  },
+  {
+    "name": "solarwinds",
+    "organization_name": "solarwinds",
+    "url": "https://helm.solarwinds.com"
+  },
+  {
+    "name": "netbox",
+    "organization_name": "netbox",
+    "url": "https://charts.netbox.oss.netboxlabs.com/"
+  },
+  {
+    "name": "cbioportal",
+    "organization_name": "cbioportal",
+    "url": "https://cbioportal.github.io/cbioportal-helm/"
+  },
+  {
+    "name": "digital-asset",
+    "organization_name": "digital-asset",
+    "url": "https://digital-asset.github.io/daml-helm-charts/"
+  },
+  {
+    "name": "snowplow-devops",
+    "organization_name": "snowplow",
+    "url": "https://snowplow-devops.github.io/helm-charts"
+  },
+  {
+    "name": "policy-reporter",
+    "organization_name": "kyverno",
+    "url": "https://kyverno.github.io/policy-reporter"
+  },
+  {
+    "name": "hpe-storage",
+    "organization_name": "hpe-storage",
+    "url": "https://hpe-storage.github.io/co-deployments/"
+  },
+  {
+    "name": "rook",
+    "organization_name": "rook",
+    "url": "https://charts.rook.io/release"
+  },
+  {
+    "name": "clabernetes",
+    "organization_name": "srl-labs",
+    "url": "oci://ghcr.io/srl-labs/clabernetes/clabernetes"
+  },
+  {
+    "name": "kube-starrocks",
+    "organization_name": "starrocks",
+    "url": "https://starrocks.github.io/starrocks-kubernetes-operator"
+  },
+  {
+    "name": "s3gw",
+    "organization_name": "s3gw",
+    "url": "https://s3gw-tech.github.io/s3gw-charts"
+  },
+  {
+    "name": "promitor",
+    "organization_name": "promitor",
+    "url": "https://charts.promitor.io/"
+  },
+  {
+    "name": "relution",
+    "organization_name": "relution",
+    "url": "https://relution-io.github.io/relution-kubernetes/"
+  },
+  {
+    "name": "kuadrant",
+    "organization_name": "kuadrant",
+    "url": "https://kuadrant.io/helm-charts"
+  },
+  {
+    "name": "prometheus-community",
+    "organization_name": "prometheus",
+    "url": "https://prometheus-community.github.io/helm-charts"
+  },
+  {
+    "name": "allegroai",
+    "organization_name": "clearml",
+    "url": "https://allegroai.github.io/clearml-helm-charts"
+  },
+  {
+    "name": "ksoc",
+    "organization_name": "ksoc",
+    "url": "https://charts.ksoc.com/stable"
+  },
+  {
+    "name": "enmeshed-connector",
+    "organization_name": "enmeshed",
+    "url": "oci://ghcr.io/nmshd/connector-helm-chart"
+  },
+  {
+    "name": "istio-official",
+    "organization_name": "istio",
+    "url": "https://istio-release.storage.googleapis.com/charts"
+  },
+  {
+    "name": "goauthentik",
+    "organization_name": "goauthentik",
+    "url": "https://charts.goauthentik.io/"
+  },
+  {
+    "name": "homarr-labs",
+    "organization_name": "homarr-labs",
+    "url": "https://homarr-labs.github.io/charts/"
+  },
+  {
+    "name": "deckard",
+    "organization_name": "blip",
+    "url": "https://takenet.github.io/deckard"
+  },
+  {
+    "name": "sumologic",
+    "organization_name": "sumologic",
+    "url": "https://sumologic.github.io/sumologic-kubernetes-collection"
+  },
+  {
+    "name": "sonatype",
+    "organization_name": "sonatype",
+    "url": "https://sonatype.github.io/helm3-charts/"
+  },
+  {
+    "name": "hivemq",
+    "organization_name": "hivemq",
+    "url": "https://hivemq.github.io/helm-charts"
+  },
+  {
+    "name": "kuoss",
+    "organization_name": "kuoss",
+    "url": "https://kuoss.github.io/helm-charts"
+  },
+  {
+    "name": "ectobit",
+    "organization_name": "ectobit",
+    "url": "https://charts.ectobit.com"
+  },
+  {
+    "name": "sematext",
+    "organization_name": "sematext",
+    "url": "https://cdn.sematext.com/helm-charts/"
+  },
+  {
+    "name": "jaegertracing",
+    "organization_name": "jaegertracing",
+    "url": "https://jaegertracing.github.io/helm-charts"
+  },
+  {
+    "name": "enix",
+    "organization_name": "enix",
+    "url": "https://charts.enix.io"
+  },
+  {
+    "name": "doku",
+    "organization_name": "dokulabs",
+    "url": "https://dokulabs.github.io/helm/"
+  },
+  {
+    "name": "sigscale-im",
+    "organization_name": "sigscale",
+    "url": "oci://asia-east1-docker.pkg.dev/sigscale-oss/charts/sigscale-im"
+  },
+  {
+    "name": "port-labs",
+    "organization_name": "port-labs",
+    "url": "https://port-labs.github.io/helm-charts/"
+  },
+  {
+    "name": "lumigo-operator",
+    "organization_name": "lumigo",
+    "url": "https://lumigo-io.github.io/lumigo-kubernetes-operator"
+  },
+  {
+    "name": "gluu-flex",
+    "organization_name": "gluu",
+    "url": "https://docs.gluu.org/charts"
+  },
+  {
+    "name": "airlock-microgateway",
+    "organization_name": "airlock",
+    "url": "oci://quay.io/airlockcharts/microgateway"
+  },
+  {
+    "name": "paradedb",
+    "organization_name": "paradedb",
+    "url": "https://paradedb.github.io/charts/"
+  },
+  {
+    "name": "netscaler",
+    "organization_name": "netscaler",
+    "url": "https://netscaler.github.io/netscaler-helm-charts"
+  },
+  {
+    "name": "airlock-microgateway-cni",
+    "organization_name": "airlock",
+    "url": "oci://quay.io/airlockcharts/microgateway-cni"
+  },
+  {
+    "name": "stackstorm",
+    "organization_name": "stackstorm",
+    "url": "https://helm.stackstorm.com/"
+  },
+  {
+    "name": "makeplane",
+    "organization_name": "plane",
+    "url": "https://helm.plane.so/"
+  },
+  {
+    "name": "appsemble",
+    "organization_name": "appsemble",
+    "url": "https://charts.appsemble.com"
+  },
+  {
+    "name": "microcks",
+    "organization_name": "microcks",
+    "url": "https://microcks.io/helm"
+  },
+  {
+    "name": "kwok",
+    "organization_name": "kwok",
+    "url": "https://kwok.sigs.k8s.io/charts/"
+  },
+  {
+    "name": "wharf-helm",
+    "organization_name": "iver-wharf",
+    "url": "https://iver-wharf.github.io/wharf-helm"
+  },
+  {
+    "name": "hava-self-hosted",
+    "organization_name": "hava",
+    "url": "https://teamhava.github.io/hava-helm-selfhosted/"
+  },
+  {
+    "name": "cilium",
+    "organization_name": "cilium",
+    "url": "https://helm.cilium.io/"
+  },
+  {
+    "name": "qdrant",
+    "organization_name": "qdrant",
+    "url": "https://qdrant.github.io/qdrant-helm"
+  },
+  {
+    "name": "nutanix",
+    "organization_name": "nutanix",
+    "url": "https://nutanix.github.io/helm/"
+  },
+  {
+    "name": "opencost-oci",
+    "organization_name": "opencost",
+    "url": "oci://ghcr.io/opencost/charts/opencost"
+  },
+  {
+    "name": "vmonitor-platform",
+    "organization_name": "vngcloud",
+    "url": "https://vngcloud.github.io/helm-charts-vmonitor"
+  },
+  {
+    "name": "drone",
+    "organization_name": "drone",
+    "url": "https://charts.drone.io"
+  },
+  {
+    "name": "lifecycle-toolkit",
+    "organization_name": "keptn",
+    "url": "https://charts.lifecycle.keptn.sh"
+  },
+  {
+    "name": "coder",
+    "organization_name": "coder",
+    "url": "https://helm.coder.com"
+  },
+  {
+    "name": "truecharts-library-common-oci",
+    "organization_name": "truecharts",
+    "url": "oci://tccr.io/truecharts/common"
+  },
+  {
+    "name": "vultr",
+    "organization_name": "vultr",
+    "url": "https://vultr.github.io/helm-charts/"
+  },
+  {
+    "name": "kubiya-helm-charts",
+    "organization_name": "kubiyabot",
+    "url": "https://kubiyabot.github.io/helm-charts/"
+  },
+  {
+    "name": "stackrox",
+    "organization_name": "stackrox",
+    "url": "https://raw.githubusercontent.com/stackrox/helm-charts/main/opensource/"
+  },
+  {
+    "name": "backube-helm-charts",
+    "organization_name": "backube",
+    "url": "https://backube.github.io/helm-charts/"
+  },
+  {
+    "name": "kestra",
+    "organization_name": "kestra",
+    "url": "https://helm.kestra.io/"
+  },
+  {
+    "name": "codefresh-gitops-runtime",
+    "organization_name": "codefresh-io",
+    "url": "oci://quay.io/codefresh/gitops-runtime"
+  },
+  {
+    "name": "azure-api-management",
+    "organization_name": "azure-api-management",
+    "url": "https://azure.github.io/api-management-self-hosted-gateway/helm-charts/"
+  },
+  {
+    "name": "traefik",
+    "organization_name": "traefik",
+    "url": "https://traefik.github.io/charts"
+  },
+  {
+    "name": "apache-solr",
+    "organization_name": "apache-solr",
+    "url": "https://solr.apache.org/charts"
+  },
+  {
+    "name": "contane-github",
+    "organization_name": "contane",
+    "url": "https://contane.github.io/charts"
+  },
+  {
+    "name": "deeploy-core",
+    "organization_name": "deeploy",
+    "url": "https://deeploy-charts.storage.googleapis.com/"
+  },
+  {
+    "name": "lava",
+    "organization_name": "lava",
+    "url": "https://lavanet.github.io/helm-charts/"
+  },
+  {
+    "name": "ymatrix",
+    "organization_name": "ymatrix",
+    "url": "https://ymatrix-data.github.io/charts"
+  },
+  {
+    "name": "rad",
+    "organization_name": "rad",
+    "url": "https://charts.rad.security/stable"
+  },
+  {
+    "name": "stackgres-charts",
+    "organization_name": "stackgres",
+    "url": "https://stackgres.io/downloads/stackgres-k8s/stackgres/helm/"
+  },
+  {
+    "name": "forgejo-helm",
+    "organization_name": "forgejo",
+    "url": "oci://code.forgejo.org/forgejo-helm/forgejo"
+  },
+  {
+    "name": "kubepie",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/kubepie"
+  },
+  {
+    "name": "weaviate",
+    "organization_name": "weaviate",
+    "url": "https://weaviate.github.io/weaviate-helm"
+  },
+  {
+    "name": "einstack",
+    "organization_name": "einstack",
+    "url": "https://einstack.github.io/charts"
+  },
+  {
+    "name": "athens-charts",
+    "organization_name": "gomods",
+    "url": "https://gomods.github.io/athens-charts"
+  },
+  {
+    "name": "projectcapsule",
+    "organization_name": "capsule",
+    "url": "https://projectcapsule.github.io/charts/"
+  },
+  {
+    "name": "flex-gateway",
+    "organization_name": "mulesoft",
+    "url": "https://flex-packages.anypoint.mulesoft.com/helm"
+  },
+  {
+    "name": "hashicorp",
+    "organization_name": "hashicorp",
+    "url": "https://helm.releases.hashicorp.com"
+  },
+  {
+    "name": "jenkinsci",
+    "organization_name": "jenkins",
+    "url": "https://charts.jenkins.io/"
+  },
+  {
+    "name": "sablier-helm-charts",
+    "organization_name": "sablierapp",
+    "url": "https://sablierapp.github.io/helm-charts"
+  },
+  {
+    "name": "netapp-trident",
+    "organization_name": "netapp",
+    "url": "https://netapp.github.io/trident-helm-chart"
+  },
+  {
+    "name": "telepresence-oss",
+    "organization_name": "telepresenceio",
+    "url": "oci://ghcr.io/telepresenceio/telepresence-oss"
+  },
+  {
+    "name": "ilum",
+    "organization_name": "ilum",
+    "url": "https://charts.ilum.cloud"
+  },
+  {
+    "name": "notifynl",
+    "organization_name": "worthnl",
+    "url": "https://worth-nl.github.io/helm-charts/"
+  },
+  {
+    "name": "piedeck",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/piedeck"
+  },
+  {
+    "name": "oneuptime",
+    "organization_name": "oneuptime",
+    "url": "https://helm-chart.oneuptime.com/"
+  },
+  {
+    "name": "bluerange",
+    "organization_name": "bluerange",
+    "url": "https://bluerange-io.github.io/bluerange-kubernetes/"
+  },
+  {
+    "name": "codefresh-onprem",
+    "organization_name": "codefresh-io",
+    "url": "oci://quay.io/codefresh/codefresh"
+  },
+  {
+    "name": "fsm",
+    "organization_name": "flomesh",
+    "url": "https://charts.flomesh.io"
+  },
+  {
+    "name": "rocketadmin",
+    "organization_name": "rocketadmin",
+    "url": "https://charts.rocketadmin.com/"
+  },
+  {
+    "name": "apache-airflow",
+    "organization_name": "apache-airflow",
+    "url": "https://airflow.apache.org/"
+  },
+  {
+    "name": "openfga",
+    "organization_name": "openfga",
+    "url": "https://openfga.github.io/helm-charts"
+  },
+  {
+    "name": "kubelet-csr-approver",
+    "organization_name": "postfinance",
+    "url": "https://postfinance.github.io/kubelet-csr-approver"
+  },
+  {
+    "name": "codefresh-runner",
+    "organization_name": "codefresh-io",
+    "url": "oci://quay.io/codefresh/cf-runtime"
+  },
+  {
+    "name": "wallarm",
+    "organization_name": "wallarm",
+    "url": "https://charts.wallarm.com/"
+  },
+  {
+    "name": "dollarshaveclub",
+    "organization_name": "dollarshaveclub",
+    "url": "https://dollarshaveclub.github.io/helm-charts-public/"
+  },
+  {
+    "name": "piped-kubernetes",
+    "organization_name": "teampiped",
+    "url": "https://helm.piped.video"
+  },
+  {
+    "name": "cs3org",
+    "organization_name": "cs3org",
+    "url": "https://cs3org.github.io/charts/"
+  },
+  {
+    "name": "weblate",
+    "organization_name": "weblate",
+    "url": "https://helm.weblate.org"
+  },
+  {
+    "name": "gluu",
+    "organization_name": "gluu",
+    "url": "https://gluufederation.github.io/cloud-native-edition/pygluu/kubernetes/templates/helm"
+  },
+  {
+    "name": "arroyo",
+    "organization_name": "arroyo",
+    "url": "https://arroyosystems.github.io/helm-repo"
+  },
+  {
+    "name": "iomete",
+    "organization_name": "iomete",
+    "url": "https://chartmuseum.iomete.com"
+  },
+  {
+    "name": "rosette-server",
+    "organization_name": "rosette-babel-street",
+    "url": "https://charts.babelstreet.com"
+  },
+  {
+    "name": "csi-wekafs",
+    "organization_name": "wekaio",
+    "url": "https://weka.github.io/csi-wekafs"
+  },
+  {
+    "name": "gooddata-cn",
+    "organization_name": "gooddata",
+    "url": "https://charts.gooddata.com/"
+  },
+  {
+    "name": "gadget",
+    "organization_name": "inspektor-gadget",
+    "url": "https://inspektor-gadget.github.io/charts"
+  },
+  {
+    "name": "sigscale-cse",
+    "organization_name": "sigscale",
+    "url": "oci://asia-east1-docker.pkg.dev/sigscale-sigtran/charts/sigscale-cse"
+  },
+  {
+    "name": "inaccel",
+    "organization_name": "inaccel",
+    "url": "https://setup.inaccel.com/helm"
+  },
+  {
+    "name": "elastic",
+    "organization_name": "elastic",
+    "url": "https://helm.elastic.co"
+  },
+  {
+    "name": "k8sgpt",
+    "organization_name": "k8sgpt",
+    "url": "https://charts.k8sgpt.ai"
+  },
+  {
+    "name": "grycap",
+    "organization_name": "grycap",
+    "url": "https://grycap.github.io/helm-charts/"
+  },
+  {
+    "name": "qalita",
+    "organization_name": "qalita",
+    "url": "https://helm.qalita.io/"
+  },
+  {
+    "name": "pipekit-helm",
+    "organization_name": "pipekit",
+    "url": "https://helm.pipekit.io"
+  },
+  {
+    "name": "open-metadata",
+    "organization_name": "openmetadata",
+    "url": "https://helm.open-metadata.org"
+  },
+  {
+    "name": "tailing-sidecar-operator",
+    "organization_name": "sumologic",
+    "url": "https://sumologic.github.io/tailing-sidecar"
+  },
+  {
+    "name": "memphis",
+    "organization_name": "memphisdev",
+    "url": "https://k8s.memphis.dev/charts/"
+  },
+  {
+    "name": "zoo-project",
+    "organization_name": "zoo-project",
+    "url": "https://zoo-project.github.io/charts"
+  },
+  {
+    "name": "k8tz",
+    "organization_name": "k8tz",
+    "url": "https://k8tz.github.io/k8tz/"
+  },
+  {
+    "name": "open-feature-operator",
+    "organization_name": "openfeature",
+    "url": "https://open-feature.github.io/open-feature-operator"
+  },
+  {
+    "name": "datadog",
+    "organization_name": "datadog",
+    "url": "https://helm.datadoghq.com"
+  },
+  {
+    "name": "sql-operator",
+    "organization_name": "stenic",
+    "url": "https://stenic.github.io/sql-operator/"
+  },
+  {
+    "name": "eclipse-dirigible",
+    "organization_name": "dirigiblelabs",
+    "url": "https://eclipse.github.io/dirigible"
+  },
+  {
+    "name": "mortalgpu",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/mortalgpu"
+  },
+  {
+    "name": "cosmo-router",
+    "organization_name": "wundergraph",
+    "url": "oci://ghcr.io/wundergraph/cosmo/helm-charts/router"
+  },
+  {
+    "name": "cert-manager",
+    "organization_name": "cert-manager",
+    "url": "https://charts.jetstack.io"
+  },
+  {
+    "name": "nautobot",
+    "organization_name": "nautobot",
+    "url": "https://nautobot.github.io/helm-charts/"
+  },
+  {
+    "name": "cosmo-platform",
+    "organization_name": "wundergraph",
+    "url": "oci://ghcr.io/wundergraph/cosmo/helm-charts/cosmo"
+  },
+  {
+    "name": "well-known",
+    "organization_name": "stenic",
+    "url": "https://stenic.github.io/well-known"
+  },
+  {
+    "name": "piepass",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/piepass"
+  },
+  {
+    "name": "icoretech",
+    "organization_name": "icoretech",
+    "url": "https://icoretech.github.io/helm"
+  },
+  {
+    "name": "openmeter",
+    "organization_name": "openmeter",
+    "url": "oci://ghcr.io/openmeterio/helm-charts/openmeter"
+  },
+  {
+    "name": "epinio",
+    "organization_name": "epinio",
+    "url": "https://epinio.github.io/helm-charts"
+  },
+  {
+    "name": "janssen-auth-server",
+    "organization_name": "janssen-project",
+    "url": "https://docs.jans.io/charts"
+  },
+  {
+    "name": "hazelcast",
+    "organization_name": "hazelcast",
+    "url": "https://hazelcast-charts.s3.amazonaws.com/"
+  },
+  {
+    "name": "zammad",
+    "organization_name": "zammad",
+    "url": "https://zammad.github.io/zammad-helm"
+  },
+  {
+    "name": "klustair",
+    "organization_name": "klustair",
+    "url": "https://klustair.github.io/klustair-helm"
+  },
+  {
+    "name": "hertzbeat",
+    "organization_name": "hertzbeat",
+    "url": "https://charts.hertzbeat.apache.org/"
+  },
+  {
+    "name": "kepler",
+    "organization_name": "sustainable-computing-io",
+    "url": "https://sustainable-computing-io.github.io/kepler-helm-chart"
+  },
+  {
+    "name": "superstream",
+    "organization_name": "memphisdev",
+    "url": "https://k8s.superstream.ai"
+  },
+  {
+    "name": "trisacrypto",
+    "organization_name": "rotationalio",
+    "url": "https://helm.trisa.dev"
+  },
+  {
+    "name": "nutanix-helm-releases",
+    "organization_name": "nutanix",
+    "url": "https://nutanix.github.io/helm-releases/"
+  },
+  {
+    "name": "instill-ai",
+    "organization_name": "instill-ai",
+    "url": "https://helm.instill.tech"
+  },
+  {
+    "name": "evolves",
+    "organization_name": "evolves",
+    "url": "https://charts.evolves.fr"
+  },
+  {
+    "name": "gridgain",
+    "organization_name": "gridgain",
+    "url": "https://gridgain.github.io/helm-charts/"
+  },
+  {
+    "name": "joylive",
+    "organization_name": "joylive",
+    "url": "https://jd-opensource.github.io/joylive-helm-charts/"
+  },
+  {
+    "name": "dependencytrack",
+    "organization_name": "dependencytrack",
+    "url": "https://dependencytrack.github.io/helm-charts"
+  },
+  {
+    "name": "ngrok",
+    "organization_name": "ngrok",
+    "url": "https://charts.ngrok.com"
+  },
+  {
+    "name": "kyverno",
+    "organization_name": "kyverno",
+    "url": "https://kyverno.github.io/kyverno/"
+  },
+  {
+    "name": "meilisearch-kubernetes",
+    "organization_name": "meilisearch",
+    "url": "https://meilisearch.github.io/meilisearch-kubernetes"
+  },
+  {
+    "name": "lagoon-charts",
+    "organization_name": "uselagoon",
+    "url": "https://uselagoon.github.io/lagoon-charts/"
+  },
+  {
+    "name": "maptiler",
+    "organization_name": "maptiler",
+    "url": "https://labs.maptiler.com/maptiler-server-kubernetes/"
+  },
+  {
+    "name": "dash0-operator",
+    "organization_name": "dash0hq",
+    "url": "https://dash0hq.github.io/dash0-operator"
+  },
+  {
+    "name": "kubegems",
+    "organization_name": "kubegems",
+    "url": "https://charts.kubegems.io/kubegems"
+  },
+  {
+    "name": "strongdm",
+    "organization_name": "strongdm",
+    "url": "https://helm.strongdm.com/stable/"
+  },
+  {
+    "name": "reportportal-io",
+    "organization_name": "reportportal",
+    "url": "https://reportportal.io/kubernetes/"
+  },
+  {
+    "name": "gocd",
+    "organization_name": "gocd",
+    "url": "https://gocd.github.io/helm-chart"
+  },
+  {
+    "name": "k8s-event-grid-bridge",
+    "organization_name": "k8s-event-grid-bridge",
+    "url": "https://k8s-event-grid-bridge.tomkerkhove.be/chart-registry"
+  },
+  {
+    "name": "opencost",
+    "organization_name": "opencost",
+    "url": "https://opencost.github.io/opencost-helm-chart/"
+  },
+  {
+    "name": "piedata",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/piedata"
+  },
+  {
+    "name": "headlamp",
+    "organization_name": "headlamp",
+    "url": "https://headlamp-k8s.github.io/headlamp/"
+  },
+  {
+    "name": "meshery",
+    "organization_name": "meshery",
+    "url": "https://meshery.io/charts/"
+  },
+  {
+    "name": "flagsmith",
+    "organization_name": "flagsmith",
+    "url": "https://flagsmith.github.io/flagsmith-charts/"
+  },
+  {
+    "name": "alucard",
+    "organization_name": "sithanos",
+    "url": "https://sithanos.github.io/alucard/stable"
+  },
+  {
+    "name": "zazuko",
+    "organization_name": "zazuko",
+    "url": "https://charts.zazuko.com"
+  },
+  {
+    "name": "rasa",
+    "organization_name": "rasa",
+    "url": "https://helm.rasa.com"
+  },
+  {
+    "name": "glasskube",
+    "organization_name": "glasskube",
+    "url": "https://charts.glasskube.eu/"
+  },
+  {
+    "name": "redpanda-data",
+    "organization_name": "redpanda",
+    "url": "https://charts.redpanda.com"
+  },
+  {
+    "name": "ledger",
+    "organization_name": "stenic",
+    "url": "https://stenic.github.io/ledger/"
+  },
+  {
+    "name": "connector",
+    "organization_name": "twingate",
+    "url": "https://twingate.github.io/helm-charts"
+  },
+  {
+    "name": "coder-v2",
+    "organization_name": "coder",
+    "url": "https://helm.coder.com/v2"
+  },
+  {
+    "name": "jupyterhub",
+    "organization_name": "jupyterhub",
+    "url": "https://jupyterhub.github.io/helm-chart/"
+  },
+  {
+    "name": "okteto",
+    "organization_name": "okteto",
+    "url": "https://charts.okteto.com"
+  },
+  {
+    "name": "linkerd-buoyant",
+    "organization_name": "buoyant",
+    "url": "https://helm.buoyant.cloud"
+  },
+  {
+    "name": "smarter",
+    "organization_name": "smarter",
+    "url": "https://smarter-project.github.io/documentation"
+  },
+  {
+    "name": "renovate",
+    "organization_name": "renovatebot",
+    "url": "https://docs.renovatebot.com/helm-charts"
+  },
+  {
+    "name": "graviteeio",
+    "organization_name": "graviteeio",
+    "url": "https://helm.gravitee.io/"
+  },
+  {
+    "name": "go-feature-flag",
+    "organization_name": "go-feature-flag",
+    "url": "https://charts.gofeatureflag.org/"
+  },
+  {
+    "name": "backstage",
+    "organization_name": "backstage",
+    "url": "oci://ghcr.io/backstage/charts/backstage"
+  },
+  {
+    "name": "dial",
+    "organization_name": "epam",
+    "url": "https://charts.epam-rail.com"
+  },
+  {
+    "name": "argo",
+    "organization_name": "argoproj",
+    "url": "https://argoproj.github.io/argo-helm"
+  },
+  {
+    "name": "nri-plugins",
+    "organization_name": "containers",
+    "url": "https://containers.github.io/nri-plugins"
+  },
+  {
+    "name": "frontman",
+    "organization_name": "frontman-labs",
+    "url": "https://certinoltd.github.io/frontman-helm-chart/builds/"
+  },
+  {
+    "name": "fission-charts",
+    "organization_name": "fission",
+    "url": "https://fission.github.io/fission-charts/"
+  },
+  {
+    "name": "zilla",
+    "organization_name": "aklivity",
+    "url": "oci://ghcr.io/aklivity/charts/zilla"
+  },
+  {
+    "name": "depscloud",
+    "organization_name": "depscloud",
+    "url": "https://depscloud.github.io/deploy/charts"
+  },
+  {
+    "name": "it-at-m",
+    "organization_name": "it-at-m",
+    "url": "https://it-at-m.github.io/helm-charts"
+  },
+  {
+    "name": "openproject-helm-charts",
+    "organization_name": "openproject",
+    "url": "https://charts.openproject.org"
+  },
+  {
+    "name": "penpot",
+    "organization_name": "penpot",
+    "url": "https://helm.penpot.app"
+  },
+  {
+    "name": "artifact-hub",
+    "organization_name": "artifacthub",
+    "url": "https://artifacthub.github.io/helm-charts/"
+  },
+  {
+    "name": "pieeat",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/pieeat"
+  },
+  {
+    "name": "sigscale-ocs",
+    "organization_name": "sigscale",
+    "url": "oci://asia-east1-docker.pkg.dev/sigscale-ocs/charts/sigscale-ocs"
+  },
+  {
+    "name": "apimap",
+    "organization_name": "apimap",
+    "url": "https://apimap.github.io/helm-charts"
+  },
+  {
+    "name": "nginx-gateway-fabric",
+    "organization_name": "nginx",
+    "url": "oci://ghcr.io/nginxinc/charts/nginx-gateway-fabric"
+  },
+  {
+    "name": "ortelius",
+    "organization_name": "ortelius",
+    "url": "https://ortelius.github.io/ortelius-charts/"
+  },
+  {
+    "name": "rapidfort",
+    "organization_name": "rapidfort",
+    "url": "https://rapidfort.github.io/helm"
+  },
+  {
+    "name": "yourls",
+    "organization_name": "yourls",
+    "url": "https://charts.yourls.org/"
+  },
+  {
+    "name": "amd-gpu-helm",
+    "organization_name": "amd",
+    "url": "https://rocm.github.io/k8s-device-plugin/"
+  },
+  {
+    "name": "vsecm",
+    "organization_name": "secrets-manager",
+    "url": "https://vmware-tanzu.github.io/secrets-manager/"
+  },
+  {
+    "name": "offchainlabshelm",
+    "organization_name": "offchainlabs",
+    "url": "https://charts.arbitrum.io"
+  },
+  {
+    "name": "monica",
+    "organization_name": "monica",
+    "url": "https://monicahq.github.io/helm/"
+  },
+  {
+    "name": "deepgram-self-hosted",
+    "organization_name": "deepgram",
+    "url": "https://deepgram.github.io/self-hosted-resources"
+  },
+  {
+    "name": "atlassian-data-center",
+    "organization_name": "atlassian",
+    "url": "https://atlassian.github.io/data-center-helm-charts"
+  },
+  {
+    "name": "node-feature-discovery",
+    "organization_name": "kubernetes-sigs",
+    "url": "https://kubernetes-sigs.github.io/node-feature-discovery/charts"
+  },
+  {
+    "name": "lucenia",
+    "organization_name": "lucenia",
+    "url": "https://helm.lucenia.io/"
+  },
+  {
+    "name": "piesec",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/piesec"
+  },
+  {
+    "name": "requestnetwork",
+    "organization_name": "requestnetwork",
+    "url": "https://requestnetwork.github.io/request-helm-charts"
+  },
+  {
+    "name": "strangebee-helm",
+    "organization_name": "strangebee",
+    "url": "https://strangebeecorp.github.io/helm-charts/"
+  },
+  {
+    "name": "nginx",
+    "organization_name": "nginx",
+    "url": "https://helm.nginx.com/stable"
+  },
+  {
+    "name": "federid",
+    "organization_name": "federid",
+    "url": "https://federid.github.io/helm-charts"
+  },
+  {
+    "name": "piecut",
+    "organization_name": "maxiv",
+    "url": "oci://quay.io/maxiv/helm/piecut"
+  },
+  {
+    "name": "sonarqube",
+    "organization_name": "sonarsource",
+    "url": "https://SonarSource.github.io/helm-chart-sonarqube"
+  },
+  {
+    "name": "camunda",
+    "organization_name": "camunda",
+    "url": "https://helm.camunda.io"
+  },
+  {
+    "name": "harbor",
+    "organization_name": "harbor",
+    "url": "https://helm.goharbor.io"
+  },
+  {
+    "name": "datasunrise",
+    "organization_name": "datasunrise",
+    "url": "https://www.datasunrise.com/helm-chart"
+  }
+]
