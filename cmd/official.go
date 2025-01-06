@@ -24,7 +24,7 @@ var officialCmd = &cobra.Command{
 
 		orgName := args[0]
 
-		// Mettre à jour les repositories officiels
+		// update the official repositories
 		fmt.Println("Updating official repositories...")
 		err := artifacthub.UpdateOfficialRepositories()
 		if err != nil {
@@ -32,14 +32,14 @@ var officialCmd = &cobra.Command{
 			os.Exit(1)
 		}
 
-		// Récupérer les repositories correspondant à l'organisation
+		// Get repositories by organization
 		repos, err := artifacthub.GetRepositoriesByOrganization(orgName)
 		if err != nil {
 			fmt.Printf("Error: %v\n", err)
 			os.Exit(1)
 		}
 
-		// Afficher les repositories sous forme de tableau
+		// Display the repositories
 		artifacthub.DisplayRepositories(repos)
 	},
 }

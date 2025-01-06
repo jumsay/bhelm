@@ -30,10 +30,10 @@ func startLoadingAnimation(done chan bool, pause chan bool) {
 	for animating {
 		select {
 		case <-done:
-			fmt.Fprint(os.Stderr, "\r") // Nettoyer la ligne d'animation
+			fmt.Fprint(os.Stderr, "\r") // delete the loading animation
 			animating = false
 		case <-pause:
-			<-pause // Attendre le signal de reprise
+			<-pause // wait for animation
 		default:
 			for _, char := range chars {
 				fmt.Fprintf(os.Stderr, "\rUpdating repositories... %s", char)
@@ -43,6 +43,7 @@ func startLoadingAnimation(done chan bool, pause chan bool) {
 	}
 }
 
+// FetchAndWriteRepositories fetches official repositories from Artifact Hub API and writes them to a local JSON file
 func FetchAndWriteRepositories() error {
 	repositoriesMap := make(map[string]RepositoryInfo)
 	const pageSize = 50
@@ -87,7 +88,7 @@ func FetchAndWriteRepositories() error {
 		}
 
 		page++
-		time.Sleep(1 * time.Second) // Limiter la fréquence des requêtes
+		time.Sleep(1 * time.Second) // Respect the rate limit
 	}
 
 	return writeRepositoriesToFile(repositoriesMap)
@@ -122,20 +123,20 @@ func UpdateOfficialRepositories() error {
 
 	err := FetchAndWriteRepositories()
 	if err != nil {
-		done <- true // Arrêter l'animation en cas d'erreur
+		done <- true // stop animation if error
 		close(done)
 		close(pause)
 		return err
 	}
 
-	done <- true // Arrêter l'animation
+	done <- true // stop animation
 	close(done)
 	close(pause)
 	fmt.Println("\nOfficial repositories list updated successfully.")
 	return nil
 }
 
-// GetRepositoriesByOrganization filtre les repositories par nom d'organisation
+// GetRepositoriesByOrganization returns repositories for a given organization
 func GetRepositoriesByOrganization(orgName string) ([]RepositoryInfo, error) {
 	data, err := os.ReadFile(officialReposFile)
 	if err != nil {
@@ -147,7 +148,7 @@ func GetRepositoriesByOrganization(orgName string) ([]RepositoryInfo, error) {
 		return nil, fmt.Errorf("failed to parse official repositories file: %v", err)
 	}
 
-	// Filtrer les repositories correspondant à l'organisation
+	// filter repositories by repository organization
 	var filteredRepos []RepositoryInfo
 	for _, repo := range repositories {
 		if repo.Org == orgName {
@@ -162,7 +163,7 @@ func GetRepositoriesByOrganization(orgName string) ([]RepositoryInfo, error) {
 	return filteredRepos, nil
 }
 
-// DisplayRepositories affiche les repositories sous forme de tableau
+// DisplayRepositories shows the repositories in a table
 func DisplayRepositories(repositories []RepositoryInfo) {
 	table := tablewriter.NewWriter(os.Stdout)
 	table.SetHeader([]string{"Name", "Organization", "Repository URL"})
@@ -174,7 +175,7 @@ func DisplayRepositories(repositories []RepositoryInfo) {
 	table.Render()
 }
 
-// ListOfficialRepositories lit et affiche les repositories officiels à partir du fichier JSON local
+// ListOfficialRepositories lists the official repositories from local JSON file
 func ListOfficialRepositories() error {
 	data, err := os.ReadFile(officialReposFile)
 	if err != nil {

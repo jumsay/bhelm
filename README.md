@@ -1,6 +1,6 @@
 # Bhelm
 
-BHELM is a command-line tool designed to simplify the installation and management of Kubernetes applications using Helm. It integrates with Artifact Hub to search for official Helm repositories and packages, ensuring users always get the most up-to-date and trusted software for their Kubernetes clusters.
+BHELM is a command-line tool designed to simplify the installation of Kubernetes applications using Helm. It integrates with Artifact Hub to search for official Helm repositories and packages, ensuring users always get the most up-to-date and trusted software for their Kubernetes clusters.
 
 ## Features
 
