@@ -22,7 +22,8 @@ func Install(namespace, software, repoURL, version, values string, verbose bool)
 		return fmt.Errorf("failed to update Helm repositories: %v", err)
 	}
 
-	args := []string{"install", software, fmt.Sprintf("%s/%s", software, software), "--namespace", namespace}
+	//@TODO  Add the folder name to the package name compatible for helm software/software
+	args := []string{"install", software, fmt.Sprintf("%s/%s", software, software), "--namespace", namespace, "--create-namespace"}
 	if version != "" {
 		args = append(args, "--version", version)
 	}
